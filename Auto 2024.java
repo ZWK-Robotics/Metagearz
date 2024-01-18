@@ -6,7 +6,6 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Blinker;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.hardware.Gyroscope;
-
 import static java.lang.Math.abs;
 
 @Autonomous(name="Auto 2024")
@@ -56,7 +55,6 @@ public class MarluAuto extends LinearOpMode{
                   BL.setPower(0);
                   FR.setPower(0);
                   BR.setPower(0);
-
               }
 
               public void moveForward(){
