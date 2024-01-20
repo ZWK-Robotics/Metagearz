@@ -1,0 +1,1 @@
+We are a FTC team based in Centurion, South Africa. Our team is made up of grade 9 through 12 learners from our school Highschool Zwartkop. Our motto is: Innovate, Educate, Captivate. The goal of this repository is to document the changes made to our codebase and serve as a backup for when code is lost or our programmers teave the team.
