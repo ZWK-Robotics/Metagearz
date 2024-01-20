@@ -32,6 +32,23 @@ public class MarluAuto extends LinearOpMode{
 
         waitForStart();
 
+          if (opModeIsActive()) {
+
+
+              FL.setPower(-0.39);
+              FR.setPower(0.39);
+              BL.setPower(0.39);
+              BR.setPower(-0.39);
+              sleep(1000);
+              for (int count = 0; count < 1; count++) {
+                  FL.setPower(0);
+                  BL.setPower(0);
+                  FR.setPower(0);
+                  BR.setPower(0);
+                  sleep(1000);
+              }
+          }
+
           public class NormalDriveController{
               public double speed;
 
